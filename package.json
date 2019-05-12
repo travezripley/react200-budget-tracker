@@ -1,6 +1,6 @@
 {
   "name": "startnow-react200-budget-tracker",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "React/Redux Budget Tracker",
   "main": "server/index.js",
   "scripts": {
