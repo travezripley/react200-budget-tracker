@@ -6,6 +6,7 @@ const defaultState = {
 
 export default function ExpenseReducer(state = defaultState, action) {
   const { type, payload } = action;
+
   // the `state = defaultState` above is new ES6 syntax
   // for defining a default value on a parameter
 

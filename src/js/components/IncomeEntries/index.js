@@ -5,9 +5,9 @@ import IncomeEntries from "./IncomeEntries";
 // that's passed to the props of the component.
 function mapStoreToProps(store) {
   return {
-    description: store.expense.description,
-    amount: store.expense.amount,
-    lineItems: store.expense.lineItems
+    description: store.income.description,
+    amount: store.income.amount,
+    lineItems: store.income.lineItems
   };
 }
 
